@@ -76,7 +76,7 @@ label {
 }
 
 .tr-logo a {
-	color: #000000;
+	color: #994422;
 	font-size: 1.1em;
 	text-decoration: none;
 	text-transform: capitalize;
@@ -103,7 +103,7 @@ label {
 
 .tr-logo a span {
 	/* position: absolute; */
-	color: rgba(0, 0, 0, 0.2);
+	color: rgba(1, 1, 1, 0.2);
 	font-size: 1.1em;
 	text-decoration: none;
 	text-transform: capitalize;
