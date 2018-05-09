@@ -568,6 +568,13 @@ h3.subheading-its-layouts {
 
 
 /*-- about-left --*/
+.projects-grids {
+	width: 100%;
+	float: left;
+	text-align: center;
+	box-shadow: -2px 2px 6px #737373;
+	position: relative;
+}
 
 .services-grids {
 	width: 100%;
@@ -620,7 +627,8 @@ h3.subheading-its-layouts {
 
 .services-grids:nth-child(1),
 .services-grids:nth-child(2),
-.services-grids:nth-child(3) {
+.services-grids:nth-child(3),
+.services-grids:nth-child(4) {
 	margin-bottom: 1.5em;
 }
 
@@ -658,8 +666,8 @@ h3.subheading-its-layouts {
 	list-style: none;
 	display: block;
 	margin-bottom: 25px;
-	color: #fff;
-	text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.62);
+	color: #000;
+	/*text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.62);*/
 	font-size: 16px;
 	letter-spacing: 0.5px;
 }
@@ -906,6 +914,7 @@ h3.subheading-its-layouts {
 .project-desc {
 	width: 75%;
 	float: left;
+	padding-left: 30px;
 }
 
 .project-desc h5 {
@@ -1456,11 +1465,11 @@ h3.subheading-its-layouts {
 	.tr-logo a span {
 		letter-spacing: 1.5px;
 	}
-	.services-grids:nth-child(3) {
+	.services-grids:nth-child(4) {
 		margin-bottom: 0em!important;
 	}
 	.services-grids:nth-child(1),
-	.services-grids:nth-child(3) {
+	.services-grids:nth-child(4) {
 		margin-right: 0.8em;
 	}
 	.services-grids {
@@ -1690,7 +1699,7 @@ h3.subheading-its-layouts {
 		top: 2.5em;
 	}
 	.services-grids:nth-child(1),
-	.services-grids:nth-child(3) {
+	.services-grids:nth-child(4) {
 		margin-right: 0.7em;
 	}
 	.about-border-trls {
@@ -1736,12 +1745,13 @@ h3.subheading-its-layouts {
 
 @media(max-width:600px) {
 	.services-grids:nth-child(1),
-	.services-grids:nth-child(3) {
+	.services-grids:nth-child(4) {
 		margin-right: 0.6em;
 	}
 	.services-grids:nth-child(1),
 	.services-grids:nth-child(2),
-	.services-grids:nth-child(3) {
+	.services-grids:nth-child(3),
+	.services-grids:nth-child(4) {
 		margin-bottom: 1em;
 	}
 	.about-left-its {
@@ -1775,7 +1785,7 @@ h3.subheading-its-layouts {
 
 @media(max-width:480px) {
 	.services-grids:nth-child(1),
-	.services-grids:nth-child(3) {
+	.services-grids:nth-child(4) {
 		margin-right: 0em;
 	}
 	.services-grids {
@@ -1784,7 +1794,8 @@ h3.subheading-its-layouts {
 	}
 	.services-grids:nth-child(1),
 	.services-grids:nth-child(2),
-	.services-grids:nth-child(3) {
+	.services-grids:nth-child(3),
+	.services-grids:nth-child(4) {
 		margin-bottom: 1em!important;
 	}
 	.about-layouts {
