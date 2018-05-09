@@ -903,6 +903,29 @@ h3.subheading-its-layouts {
 	margin: 10px;
 }
 
+.project-desc {
+	width: 75%;
+	float: left;
+}
+
+.project-desc h5 {
+	color: #000000;
+	font-size: 23px;
+	letter-spacing: 1px;
+	text-align: left;
+	padding: 15px 0 0 9px;
+}
+
+.project-desc p {
+	color: #9a9a9a;
+	margin: 10px;
+	text-align: left;
+}
+
+.project-desc ul {
+	text-align: left;
+}
+
 .activity-row {
 	margin-bottom: 30px;
 }
@@ -1338,6 +1361,10 @@ h3.subheading-its-layouts {
 		float: none;
 	}
 	.activity-desc {
+		width: 100%;
+		float: none;
+	}
+	.project-desc {
 		width: 100%;
 		float: none;
 	}
@@ -1922,6 +1949,9 @@ h3.subheading-its-layouts {
 		border: 8px solid #000;
 	}
 	.activity-desc h5 {
+		font-size: 21px;
+	}
+	.project-desc h5 {
 		font-size: 21px;
 	}
 	.tr_its_services_grid_agile h3 {
