@@ -1,0 +1,42 @@
+html,
+
+span.popupImage{
+	position: relative; /*allows precise positioning of the popup image when used with position:absolute - see support section */
+	z-index: 0; /*resets the stack order of the list items - we'll increase in step 4. See support section for more info*/
+}
+span.popupImage{
+	text-decoration: underline;
+}
+span.popupImage span{
+	position: absolute;
+	left: -9999px;
+}
+span.popupImage:hover{
+	z-index: 50; /*places the popups infront of the thumbnails, which we gave a z-index of 0 in step 1*/ 
+	cursor:pointer; /*changes the cursor to a hand*/
+}
+span.popupImage:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/ 
+	bottom: 100%; /*the distance from the bottom of the thumbnail to the bottom of the popup image*/
+	left: -20%; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+span.popupImage span img{
+	padding: 2px; /*size of the frame*/
+	background: #ccc; /*colour of the frame*/
+}
+span.popupImage span{
+	padding: 1px; /*size of the frame*/
+	background:#eae9d4; /*colour of the frame*/
+	/*add a drop shadow to the frame*/
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0, .75));
+	-moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
+	box-shadow: 0 0 20px rgba(0,0,0, .75);
+	/*give the corners a curve*/
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius:2px;
+	/**Style the caption**/
+	font-family: 'Droid Sans', sans-serif; /*Droid Sans is available from Google fonts*/
+	font-size:.9em;
+	text-align: center;
+	color: #495a62;
+}
