@@ -51,8 +51,11 @@ ul {
 label {
 	margin: 0;
 }
-
-
+.main-body {
+	margin-top: 30px;
+}
+.page {
+}
 /*-- header --*/
 
 .tr-logo {
@@ -352,7 +355,12 @@ nav.shift ul li a:hover:after {
 }
 
 .header-bottom-its {
-	position: relative;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #FFFFFF;
 }
 
 
