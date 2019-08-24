@@ -150,6 +150,10 @@ header {
 	letter-spacing: 8px;
 	font-weight: 500;
 	color: #000;
+	text-shadow: -1px 1px 0 #fff,
+				1px 1px 0 #fff,
+				1px -1px 0 #fff;
+				-1px -1px 0 #fff;
 	position: relative;
 	margin: 0.2em 0 0.6em;
 }
@@ -166,14 +170,18 @@ header {
 
 .banner-text-tr-its h2 span {
 	color: #670000;
+	text-shadow: -1px 1px 0 #fff,
+				1px 1px 0 #fff,
+				1px -1px 0 #fff;
+				-1px -1px 0 #fff;
 }
 
 .banner-text-tr-its p {
-	color: #670000;
+	color: #ffffff;
 	font-size: 1em;
 	letter-spacing: 2px;
 	font-weight: 400;
-	background: rgba(0, 0, 0, 0.32);
+	background: rgba(0, 0, 0, 0.62);
 	padding: 4px 14px;
 }
 
@@ -913,6 +921,13 @@ h3.subheading-its-layouts {
 	text-align: left;
 	padding: 15px 0 0 9px;
 }
+.activity-desc h6 {
+	color: #000000;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-align: left;
+	padding: 15px 0 0 9px;
+}
 
 .activity-desc p {
 	color: #9a9a9a;
@@ -948,7 +963,7 @@ h3.subheading-its-layouts {
 }
 
 .scrollbar {
-	height: 250px;
+	height: 550px;
 	background: #fff;
 	overflow-y: scroll;
 }
