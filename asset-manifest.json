@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5fff2b18.css",
+    "main.js": "/static/js/main.565cd931.js",
+    "static/js/787.8c956326.chunk.js": "/static/js/787.8c956326.chunk.js",
+    "static/media/auto-reply-webapp.mp4": "/static/media/auto-reply-webapp.3339a4f61496ad4e76a5.mp4",
+    "static/media/augmented-reality-shop-floor.mp4": "/static/media/augmented-reality-shop-floor.7928878d6a34b0a1740a.mp4",
+    "static/media/web-scrapping.mp4": "/static/media/web-scrapping.8952584b8436df8d4aa4.mp4",
+    "static/media/animation-making-tool.mp4": "/static/media/animation-making-tool.db6f2279a7c923028963.mp4",
+    "static/media/speech-to-speech-translation.mp4": "/static/media/speech-to-speech-translation.c8d167a484167c90e7b8.mp4",
+    "static/media/dirt-bike.mp4": "/static/media/dirt-bike.6a5f4aac5a357fca25f3.mp4",
+    "static/media/background-desktop.jpg": "/static/media/background-desktop.371cc82c31c0fbdcffdd.jpg",
+    "static/media/profiler.png": "/static/media/profiler.294d1baf394265fd9de9.png",
+    "static/media/background-mobile.jpg": "/static/media/background-mobile.2e674c8b9f04c1b7beee.jpg",
+    "static/media/experience1.jpg": "/static/media/experience1.7ccc2dfb9b1db3d616e1.jpg",
+    "static/media/image-processing.png": "/static/media/image-processing.9034b683dd333cc4a65d.png",
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.81738b122533763ec386.jpg",
+    "static/media/education.jpg": "/static/media/education.49e9beac418fb40d022d.jpg",
+    "static/media/experience.jpg": "/static/media/experience.d3c330183110185ce204.jpg",
+    "static/media/wifi-rc-car.png": "/static/media/wifi-rc-car.351be780b999de07edbd.png",
+    "static/media/agro-dispenser-indicator.png": "/static/media/agro-dispenser-indicator.0c6f1d0b4f0544ad597c.png",
+    "static/media/education1.jpg": "/static/media/education1.11f0917859cc6c2cdded.jpg",
+    "static/media/android-courses.png": "/static/media/android-courses.4779e69810607c3937c3.png",
+    "index.html": "/index.html",
+    "main.5fff2b18.css.map": "/static/css/main.5fff2b18.css.map",
+    "main.565cd931.js.map": "/static/js/main.565cd931.js.map",
+    "787.8c956326.chunk.js.map": "/static/js/787.8c956326.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fff2b18.css",
+    "static/js/main.565cd931.js"
+  ]
+}
