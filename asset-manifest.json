@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5fff2b18.css",
-    "main.js": "/static/js/main.565cd931.js",
+    "main.js": "/static/js/main.fb7101d0.js",
     "static/js/787.8c956326.chunk.js": "/static/js/787.8c956326.chunk.js",
     "static/media/auto-reply-webapp.mp4": "/static/media/auto-reply-webapp.3339a4f61496ad4e76a5.mp4",
     "static/media/augmented-reality-shop-floor.mp4": "/static/media/augmented-reality-shop-floor.7928878d6a34b0a1740a.mp4",
@@ -23,11 +23,11 @@
     "static/media/android-courses.png": "/static/media/android-courses.4779e69810607c3937c3.png",
     "index.html": "/index.html",
     "main.5fff2b18.css.map": "/static/css/main.5fff2b18.css.map",
-    "main.565cd931.js.map": "/static/js/main.565cd931.js.map",
+    "main.fb7101d0.js.map": "/static/js/main.fb7101d0.js.map",
     "787.8c956326.chunk.js.map": "/static/js/787.8c956326.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fff2b18.css",
-    "static/js/main.565cd931.js"
+    "static/js/main.fb7101d0.js"
   ]
 }
