@@ -1,3 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
+Sitemap: https://tejesh-raut.github.io/indus-valley-script/sitemap.xml
 User-agent: *
 Disallow:
